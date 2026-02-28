@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F4")(type "KiCad")(uri "${KIPRJMOD}/Lib/STM32F405RGT6.kicad_sym")(options "")(descr ""))
+  (lib (name "TI Audio Codec")(type "KiCad")(uri "${KIPRJMOD}/Lib/PCM3060PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "TI Headphone Amp")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPA6132A2RTET.kicad_sym")(options "")(descr ""))
+)
