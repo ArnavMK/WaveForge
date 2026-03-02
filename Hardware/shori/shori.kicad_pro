@@ -627,6 +627,10 @@
       {
         "netclass": "Analog",
         "pattern": "/SUM*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/INPUT*"
       }
     ]
   },
