@@ -659,6 +659,10 @@
       {
         "netclass": "Analog_Power",
         "pattern": "/FILT+"
+      },
+      {
+        "netclass": "Analog",
+        "pattern": "/CODEC_A*"
       }
     ]
   },
