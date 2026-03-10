@@ -574,7 +574,7 @@
       },
       {
         "netclass": "Analog",
-        "pattern": "/AUDIO_OUT"
+        "pattern": "/AUDIO_OUT*"
       },
       {
         "netclass": "Ground",
@@ -582,7 +582,7 @@
       },
       {
         "netclass": "Analog",
-        "pattern": "/AUDIO_IN"
+        "pattern": "/AUDIO_IN*"
       },
       {
         "netclass": "Digital",
@@ -655,6 +655,10 @@
       {
         "netclass": "Power",
         "pattern": "/INPUT*"
+      },
+      {
+        "netclass": "Analog_Power",
+        "pattern": "/FILT+"
       }
     ]
   },

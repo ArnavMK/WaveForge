@@ -3,5 +3,7 @@
   (lib (name "STM32F4")(type "KiCad")(uri "${KIPRJMOD}/Lib/STM32F405RGT6.kicad_sym")(options "")(descr ""))
   (lib (name "TI Audio Codec")(type "KiCad")(uri "${KIPRJMOD}/Lib/PCM3060PWR.kicad_sym")(options "")(descr ""))
   (lib (name "TI LDO")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS73733DCQR.kicad_sym")(options "")(descr ""))
-  (lib (name "MyConnectors")(type "KiCad")(uri "${KIPRJMOD}/Lib/2026-03-09_15-23-52.kicad_sym")(options "")(descr ""))
+  (lib (name "Power Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/2026-03-09_15-23-52.kicad_sym")(options "")(descr ""))
+  (lib (name "3 Pin Audio Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/530480310.kicad_sym")(options "")(descr ""))
+  (lib (name "2 Pin Audio Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/2026-03-09_16-14-18.kicad_sym")(options "")(descr ""))
 )
