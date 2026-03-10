@@ -7530,12 +7530,6 @@
 		(uuid "3e4a2c0e-a18a-43bf-a1bf-91ce6de3f917")
 	)
 	(junction
-		(at 156.21 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "404f376d-bc4f-4ef1-a5f8-0e22e5f5a800")
-	)
-	(junction
 		(at 415.29 248.92)
 		(diameter 0)
 		(color 132 0 132 1)
@@ -11565,16 +11559,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 231.14) (xy 156.21 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2184737-b1d5-4dcf-85fd-fb5d17a8aa67")
-	)
-	(wire
-		(pts
 			(xy 560.07 332.74) (xy 552.45 332.74)
 		)
 		(stroke
@@ -12079,7 +12063,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 233.68) (xy 139.7 231.14)
+			(xy 139.7 220.98) (xy 139.7 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12311,6 +12295,16 @@
 			(type default)
 		)
 		(uuid "fcb23dbb-9966-4a98-bed9-8b85e44c7374")
+	)
+	(wire
+		(pts
+			(xy 139.7 220.98) (xy 156.21 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf9b6dc-cb72-4444-a517-e404faae4c00")
 	)
 	(wire
 		(pts
@@ -20075,24 +20069,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a15c0017-06eb-4cd2-aca4-c3a023f0c62d")
 		(property "Reference" "C10"
-			(at 152.4 224.7899 0)
+			(at 147.574 224.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100uF"
-			(at 152.4 227.3299 0)
+		(property "Value" "100nF"
+			(at 147.574 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
@@ -22158,7 +22151,6 @@
 	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 184.15 287.02 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
