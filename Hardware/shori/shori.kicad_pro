@@ -708,6 +708,10 @@
       {
         "netclass": "Analog",
         "pattern": "/CODEC_A*"
+      },
+      {
+        "netclass": "Digital",
+        "pattern": "/QSPI*"
       }
     ]
   },
