@@ -6,4 +6,5 @@
   (lib (name "Power Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/2026-03-09_15-23-52.kicad_sym")(options "")(descr ""))
   (lib (name "3 Pin Audio Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/530480310.kicad_sym")(options "")(descr ""))
   (lib (name "2 Pin Audio Molex")(type "KiCad")(uri "${KIPRJMOD}/Lib/2026-03-09_16-14-18.kicad_sym")(options "")(descr ""))
+  (lib (name "MyCrystal")(type "KiCad")(uri "${KIPRJMOD}/Lib/ABM8-12.288MHZ-B2-T.kicad_sym")(options "")(descr ""))
 )
