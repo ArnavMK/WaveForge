@@ -872,7 +872,7 @@
         "uuid": "bed06ac2-3d53-4627-b912-3f6150ebe2ee"
       }
     ],
-    "used_designators": "RESET1",
+    "used_designators": "RESET1,#PWR64-65,D1,R41",
     "variants": []
   },
   "sheets": [
