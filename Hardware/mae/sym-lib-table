@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESDS452") (type "KiCad") (uri "C:/Projects/KiCad/WaveForge/Hardware/shori/Lib/MySymbols") (options "") (descr ""))
+	(lib (name "My Symbols") (type "KiCad") (uri "${KIPRJMOD}/Lib") (options "") (descr ""))
+)
