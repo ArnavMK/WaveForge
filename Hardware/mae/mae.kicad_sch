@@ -1144,6 +1144,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "My Symbols:530480310"
 			(pin_names
 				(offset 1.016)
@@ -2065,12 +2164,6 @@
 		(uuid "1c4bbfa5-4928-4c9b-83ea-c900124e512c")
 	)
 	(junction
-		(at 31.75 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dab8b04-29fe-4512-aa22-be92a68e08b8")
-	)
-	(junction
 		(at 180.34 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2087,12 +2180,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fcd619d-dad9-4bb0-9ef9-5ce66f41b051")
-	)
-	(junction
-		(at 55.88 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c03c964-13d6-48e1-8721-5ea2a0ee7ece")
 	)
 	(junction
 		(at 200.66 45.72)
@@ -2131,6 +2218,12 @@
 		(uuid "77c15a39-b39d-43f9-a3f4-c16fc3a9be51")
 	)
 	(junction
+		(at 210.82 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e6d671-ee7b-410d-a2a1-1ef08ed6dd47")
+	)
+	(junction
 		(at 180.34 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2141,6 +2234,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84967793-461b-4563-83c2-e9e9ab4d7144")
+	)
+	(junction
+		(at 41.91 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d859bf-0979-49c2-b91f-a5205c69b4f5")
+	)
+	(junction
+		(at 31.75 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3e2e97-f3aa-4cfc-a765-fb8655120e71")
 	)
 	(junction
 		(at 210.82 52.07)
@@ -2179,6 +2284,12 @@
 		(uuid "ccde1c7b-be05-43df-b79d-08a58fb992da")
 	)
 	(junction
+		(at 82.55 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd2e24c7-da5d-486c-b9a6-a80f64b8c799")
+	)
+	(junction
 		(at 231.14 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2209,7 +2320,7 @@
 		(uuid "ffb2884d-4c81-4f93-840d-5dc98f4d68c9")
 	)
 	(no_connect
-		(at 58.42 58.42)
+		(at 44.45 57.15)
 		(uuid "68ba0ba4-b406-45ae-bcbe-90640b58fa2c")
 	)
 	(wire
@@ -2234,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 88.9 148.59)
+			(xy 76.2 148.59) (xy 82.55 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2294,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 148.59) (xy 82.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3813d1-e8fa-429f-9a2c-79dce1293d9e")
+	)
+	(wire
+		(pts
 			(xy 200.66 22.86) (xy 200.66 29.21)
 		)
 		(stroke
@@ -2314,16 +2435,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 31.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1044549f-a1be-4a98-9b1d-dc564833cb16")
-	)
-	(wire
-		(pts
 			(xy 231.14 63.5) (xy 231.14 58.42)
 		)
 		(stroke
@@ -2331,6 +2442,16 @@
 			(type default)
 		)
 		(uuid "12a1ce44-7d69-4941-b861-e185f58ed1eb")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d3308d-585f-457c-80d8-bcc650c6d8a3")
 	)
 	(wire
 		(pts
@@ -2374,16 +2495,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 57.15) (xy 31.75 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18fa361b-4337-404e-baf6-32282d9be1d9")
-	)
-	(wire
-		(pts
 			(xy 200.66 111.76) (xy 200.66 119.38)
 		)
 		(stroke
@@ -2414,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 58.42) (xy 53.34 58.42)
+			(xy 31.75 57.15) (xy 39.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 55.88 54.61)
+			(xy 41.91 57.15) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2484,6 +2595,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4a78c3-6842-41e7-8999-0ac4cc91330f")
+	)
+	(wire
+		(pts
 			(xy 261.62 72.39) (xy 269.24 72.39)
 		)
 		(stroke
@@ -2524,16 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 40.64) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52cc4ac1-75d2-42ea-8017-b7bc802c87e4")
-	)
-	(wire
-		(pts
 			(xy 40.64 160.02) (xy 54.61 160.02)
 		)
 		(stroke
@@ -2541,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "58a020dd-3e5e-4efe-bc65-c45409e94548")
+	)
+	(wire
+		(pts
+			(xy 62.23 54.61) (xy 76.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c216cae-34b0-401f-a93b-64c1d4cb16f4")
 	)
 	(wire
 		(pts
@@ -2554,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 87.63) (xy 210.82 92.71)
+			(xy 210.82 87.63) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2564,13 +2685,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 54.61) (xy 35.56 54.61)
+			(xy 27.94 54.61) (xy 41.91 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "62d383da-35ef-40cd-a82b-91870a71a655")
+	)
+	(wire
+		(pts
+			(xy 41.91 54.61) (xy 54.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6481fc51-8396-4f89-9ffe-8946d929cdfc")
 	)
 	(wire
 		(pts
@@ -2724,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 76.2 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1cc4d5-461c-4634-a63b-65e049d94899")
-	)
-	(wire
-		(pts
 			(xy 261.62 85.09) (xy 269.24 85.09)
 		)
 		(stroke
@@ -2881,6 +3002,16 @@
 			(type default)
 		)
 		(uuid "a43d2414-68ee-48c7-b017-5050b32d670d")
+	)
+	(wire
+		(pts
+			(xy 31.75 57.15) (xy 31.75 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60bbdd2-3ada-40eb-a002-9c00c55acc18")
 	)
 	(wire
 		(pts
@@ -3304,6 +3435,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 40.64) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a7a9e9-6fe5-46fa-a25e-d4f21eb5e670")
+	)
+	(wire
+		(pts
 			(xy 100.33 74.93) (xy 100.33 78.74)
 		)
 		(stroke
@@ -3353,6 +3494,16 @@
 		)
 		(uuid "4021f64a-697d-4957-b428-f8612f949c62")
 	)
+	(label "GATE"
+		(at 86.36 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "418a8c55-54da-48c4-803b-0cfb66efb510")
+	)
 	(label "VBIAS"
 		(at 177.8 43.18 180)
 		(effects
@@ -3374,6 +3525,26 @@
 			(justify left bottom)
 		)
 		(uuid "61332130-d5ee-4796-b13b-4da4c49ca85b")
+	)
+	(label "SOURCE"
+		(at 100.33 62.23 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "63cab8c4-4ea3-4c95-b4c8-cb888145679f")
+	)
+	(label "DRAIN"
+		(at 100.33 43.18 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "674b4e38-c50e-45c6-bf61-2af0805f7af5")
 	)
 	(label "AUDIO_OUT-"
 		(at 54.61 157.48 0)
@@ -3544,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3720,7 +3891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 78.74 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -3889,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 54.61 90)
+		(at 58.42 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3900,7 +4071,7 @@
 		(fields_autoplaced yes)
 		(uuid "29c89fde-53ee-47a2-ae8d-08c59f16d1b8")
 		(property "Reference" "R4"
-			(at 39.37 48.26 90)
+			(at 58.42 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3910,7 +4081,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 39.37 50.8 90)
+			(at 58.42 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3919,8 +4090,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207"
-			(at 39.37 56.388 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 58.42 56.388 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3931,7 +4102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 54.61 0)
+			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3942,7 +4113,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 54.61 0)
+			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 213.36 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4068,6 +4239,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 82.0791 181.0418 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34613ce3-78f1-498b-95ef-9001370099a9")
+		(property "Reference" "H3"
+			(at 84.6191 179.7717 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 84.6191 182.3117 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 82.0791 181.0418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.0791 181.0418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 82.0791 181.0418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 190.5 77.47 0)
 		(unit 2)
@@ -4098,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 190.5 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4239,6 +4486,82 @@
 			(project "mae"
 				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 108.9239 181.9592 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48958db6-d7b7-4d41-8329-c95a27d39317")
+		(property "Reference" "H4"
+			(at 111.4639 180.6891 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.4639 183.2291 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 108.9239 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.9239 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 108.9239 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4435,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 165.1 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 199.6948 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4803,6 +5126,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 210.82 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76187f6f-3b64-48dd-b0aa-52c5b3c6ec60")
+		(property "Reference" "#FLG02"
+			(at 212.725 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 214.63 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 210.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d99243d6-5688-40fc-b71d-6e72e8e2031b")
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 39.37 132.08 180)
 		(unit 1)
@@ -4915,7 +5317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 262.5852 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5043,6 +5445,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 62.5062 180.982 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8451ff7d-7db7-4458-a48c-6ae9916203bb")
+		(property "Reference" "H5"
+			(at 65.0462 179.7119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 65.0462 182.2519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 62.5062 180.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.5062 180.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 62.5062 180.982 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 189.23 87.63 90)
 		(unit 1)
@@ -5073,7 +5551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 189.23 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5870,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 89.2048 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5550,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 190.5 58.928 90)
 			(hide yes)
 			(show_name no)
@@ -5629,7 +6107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 199.6948 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5757,7 +6235,7 @@
 	)
 	(symbol
 		(lib_id "MyCrystal:ESDS452DBZRQ1")
-		(at 55.88 64.77 270)
+		(at 41.91 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5767,7 +6245,7 @@
 		(dnp no)
 		(uuid "bccb2c7f-7124-48da-8648-f373fa4cc7aa")
 		(property "Reference" "U9"
-			(at 61.976 67.056 0)
+			(at 48.006 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5777,7 +6255,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 55.88 64.77 0)
+			(at 41.91 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5787,7 +6265,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 55.88 64.77 0)
+			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +6276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 64.77 0)
+			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5809,7 +6287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 64.77 0)
+			(at 41.91 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +6503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 231.14 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 165.1 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -6559,7 +7037,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 102.108 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -6686,6 +7164,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 37.8315 181.9592 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f325c5e7-9efc-48a6-9fc7-1d15132390ac")
+		(property "Reference" "H6"
+			(at 40.3715 180.6891 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.3715 183.2291 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 37.8315 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.8315 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 37.8315 181.9592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 36.83 180)
 		(unit 1)
@@ -6719,7 +7273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 102.108 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6799,7 +7353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 231.14 53.848 90)
 			(hide yes)
 			(show_name no)
@@ -6842,6 +7396,84 @@
 			(project "mae"
 				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb86e524-81c3-41f8-b51d-33635d666470")
+		(property "Reference" "#PWR011"
+			(at 82.55 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cafdb669-9931-4a6e-9a76-3130fd725aef")
+		)
+		(instances
+			(project "mae"
+				(path "/ed1c0d1b-0b3d-4c4b-a59a-8ebbb7b7dcf6"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6959,7 +7591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 225.7552 73.66 0)
 			(hide yes)
 			(show_name no)
