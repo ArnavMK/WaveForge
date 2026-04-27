@@ -4499,7 +4499,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 100.33 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6379,10 +6379,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "906a73f3-6094-411d-8606-bdaaf72452be")
 		(property "Reference" "C5"
-			(at 92.71 139.6999 0)
+			(at 91.44 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6393,7 +6392,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 92.71 142.2399 0)
+			(at 91.44 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6952,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 77.1652 144.78 0)
 			(hide yes)
 			(show_name no)
