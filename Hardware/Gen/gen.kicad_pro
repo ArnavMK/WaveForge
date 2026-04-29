@@ -138,7 +138,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -195,12 +195,14 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.3,
         0.5,
         0.8,
         1.0,
         1.5,
-        2.0
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -663,7 +665,7 @@
         "uuid": "012cfd84-d095-43cc-b661-50b6ce25f7db"
       }
     ],
-    "used_designators": "#PWR8,#PWR26,H1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
