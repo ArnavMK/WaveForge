@@ -6663,6 +6663,16 @@
 		)
 		(uuid "214a2349-566e-4a46-a80e-feca9e70fd1b")
 	)
+	(label "AUDIO_IN+"
+		(at 125.73 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68560cdb-bf91-41a3-b8fe-61bc30f1a89c")
+	)
 	(label "BST_A"
 		(at 204.47 116.84 90)
 		(effects
@@ -6682,6 +6692,36 @@
 			(justify right bottom)
 		)
 		(uuid "6faeacfd-31b3-417c-9b1d-200d9aca15f6")
+	)
+	(label "AUDIO_IN-"
+		(at 125.73 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "739cb529-f8f4-40cd-920d-eaba9373530c")
+	)
+	(label "INDUCTOR_IN_L2"
+		(at 231.14 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75cd2bb3-0774-451b-aafc-e79ffc61e772")
+	)
+	(label "INDUCTOR_IN_L1"
+		(at 231.14 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bc4ed5e-7d51-418d-973b-9c5d30ae9359")
 	)
 	(label "BST_B"
 		(at 142.24 105.41 180)
