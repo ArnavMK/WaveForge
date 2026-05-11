@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,16 +50,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -81,7 +75,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -95,12 +89,12 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
@@ -138,12 +132,12 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -193,12 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.5,
-        0.8
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -225,12 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -240,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -449,7 +433,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -489,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "shori.kicad_pro",
+    "filename": "gamen.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -507,66 +490,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "Analog",
-        "pcb_color": "rgb(132, 0, 132)",
-        "priority": 3,
-        "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "name": "Analog_Power",
-        "pcb_color": "rgb(204, 102, 0)",
-        "priority": 1,
-        "schematic_color": "rgb(204, 102, 0)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "Digital",
-        "pcb_color": "rgb(0, 132, 132)",
-        "priority": 4,
-        "schematic_color": "rgb(0, 132, 132)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "name": "Ground",
-        "pcb_color": "rgb(72, 72, 72)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 0, 0)",
-        "tuning_profile": "",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "line_style": 0,
-        "name": "Power",
-        "pcb_color": "rgb(194, 0, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(194, 0, 0)",
-        "track_width": 0.5,
-        "tuning_profile": "",
         "wire_width": 6
       }
     ],
@@ -575,143 +502,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Analog_Power",
-        "pattern": "/VBIAS"
-      },
-      {
-        "netclass": "Analog_Power",
-        "pattern": "+3.3VA"
-      },
-      {
-        "netclass": "Analog_Power",
-        "pattern": "+5VA"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/CODEC_DAC_OUT"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/AUDIO_OUT*"
-      },
-      {
-        "netclass": "Ground",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/AUDIO_IN*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/I2S_*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/I2C_*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/JACK*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/CAP27_TO_R7"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/CAP26_TO_R6"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/AUX_MIX"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/SW*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/UART_*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/BOOT0_R"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/NRST"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/LOAD_*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/VCAP*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/VIN*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/VOUTL+"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/VCOM"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/UNUSE*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/SUM*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/INPUT*"
-      },
-      {
-        "netclass": "Analog_Power",
-        "pattern": "/FILT+"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "/CODEC_A*"
-      },
-      {
-        "netclass": "Digital",
-        "pattern": "/QSPI*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/5V_*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Fabrication/",
-      "pos_files": "",
+      "plot": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -725,13 +523,13 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": "\t",
+      "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "TSV",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": ""
+      "string_delimiter": "\""
     },
     "bom_presets": [],
     "bom_settings": {
@@ -784,66 +582,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S3.3",
-          "name": "KLC_S3.3",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "KLC_S4.1",
-          "name": "KLC_S4.1",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -876,33 +620,25 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "shori.kicad_sch",
-        "name": "shori",
-        "uuid": "bed06ac2-3d53-4627-b912-3f6150ebe2ee"
+        "filename": "gamen.kicad_sch",
+        "name": "Root",
+        "uuid": "8a9e3aea-7c2b-4c92-975d-5ef2081583b7"
       }
     ],
-    "used_designators": "R46,J2,J6,#PWR53,#PWR67,U15,C16,C52-53",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
-      "bed06ac2-3d53-4627-b912-3f6150ebe2ee",
-      "shori"
+      "8a9e3aea-7c2b-4c92-975d-5ef2081583b7",
+      "Root"
     ]
   ],
   "text_variables": {},
