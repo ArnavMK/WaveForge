@@ -17113,7 +17113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "MyFootprints:CAPMP6.3X3.2_2.8N_KEM"
 			(at 546.1 334.01 0)
 			(hide yes)
 			(show_name no)
