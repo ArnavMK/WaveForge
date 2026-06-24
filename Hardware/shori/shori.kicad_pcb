@@ -114,7 +114,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_57555575)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -126,7 +126,7 @@
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
-			(useauxorigin no)
+			(useauxorigin yes)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -143,11 +143,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Fabrication/")
+			(outputdirectory "../../Galery/Boards/Shori/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
@@ -7448,10 +7448,10 @@
 		(at 106 116.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "3V3A"
+		(property "Reference" "TP3"
 			(at -0.75 1.5 0)
 			(layer "F.SilkS")
-			(uuid "d81d4eb2-17c3-4d6d-aa7f-45aeaf7df211")
+			(uuid "208350ec-4938-46af-bbf2-7f3059e73b6b")
 			(effects
 				(font
 					(size 1 1)
@@ -7462,7 +7462,7 @@
 		(property "Value" "TP_3V3A"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "ac5620b1-6c0c-4313-829e-a77d7b20698d")
+			(uuid "6daf225d-d623-4626-9813-af66e693fd9c")
 			(effects
 				(font
 					(size 1 1)
@@ -7475,7 +7475,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3bd4b8c-f3c3-4603-82e0-f3dce48511f6")
+			(uuid "5dbffe86-adc9-478f-b87e-0feacf37c9b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7488,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9a475f5-f83a-4b3d-b443-1018ee372c1e")
+			(uuid "8052e27a-c4d2-40e4-94e6-720493fe0c0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25489,10 +25489,10 @@
 		(at 149.6 127)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "5V"
+		(property "Reference" "TP1"
 			(at -0.5 -1.448 0)
 			(layer "F.SilkS")
-			(uuid "48239e53-5031-4801-bfd0-21de212ec193")
+			(uuid "1220a58a-31bf-4d23-b8c1-6faca2f317fb")
 			(effects
 				(font
 					(size 1 1)
@@ -25503,7 +25503,7 @@
 		(property "Value" "TP_5V"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "fd011c64-cf93-4dbd-b86e-bbe6bfb297e1")
+			(uuid "89bbdf25-0c9a-4b72-9b25-eddbed622110")
 			(effects
 				(font
 					(size 1 1)
@@ -25516,7 +25516,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ada1ab0-54fe-48c8-a0be-c69dbcd8e28a")
+			(uuid "e05cf503-4474-487e-8858-6d119826dc22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25529,7 +25529,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af135831-6571-4251-854d-5fc6722e3dab")
+			(uuid "50e21daa-a8bc-4091-9e35-db2a7f851523")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27598,10 +27598,10 @@
 		(at 144.954284 119.5)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "3V3"
+		(property "Reference" "3.3V"
 			(at 1.445716 -1.5 180)
 			(layer "F.SilkS")
-			(uuid "ef3ce918-0993-41ef-b7f0-9d03fd7151c9")
+			(uuid "c6150bf1-952d-42d5-b006-8959e1b560a3")
 			(effects
 				(font
 					(size 1 1)
@@ -27612,7 +27612,7 @@
 		(property "Value" "TP_3V3"
 			(at 0 1.55 0)
 			(layer "F.Fab")
-			(uuid "af0d6548-02ff-4404-af78-a5f84041402e")
+			(uuid "d8aa7aff-1ab8-4cd8-8c2a-30c4a49da5ea")
 			(effects
 				(font
 					(size 1 1)
@@ -27625,7 +27625,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b74f9773-e6c8-4f46-b904-4c0be98377b6")
+			(uuid "780d1f9d-2779-4ef7-9515-63af922143f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27638,7 +27638,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f551e0a3-3a42-464e-b385-9f840fae73f1")
+			(uuid "eb3c99d8-d1c9-480d-822c-582e91c8cd6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40610,7 +40610,7 @@
 		)
 		(polygon
 			(pts
-				(xy 95.802428 90.081923) (xy 203.851607 89.727761) (xy 204.00503 136.53443) (xy 96.210899 137.463709)
+				(xy 95.759282 85.077134) (xy 203.835202 84.722884) (xy 204.00503 136.53443) (xy 96.210899 137.463709)
 			)
 		)
 		(filled_polygon
