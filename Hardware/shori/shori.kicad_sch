@@ -9737,10 +9737,6 @@
 		(uuid "d534eb89-cdb8-4d50-9f51-42aee76e9c5f")
 	)
 	(no_connect
-		(at 151.13 243.84)
-		(uuid "d5f96b44-fe6c-4e9f-a2c3-95bcf70c053b")
-	)
-	(no_connect
 		(at 449.58 236.22)
 		(uuid "d613ccdd-3bac-4e14-bd03-388cc726380b")
 	)
@@ -10932,16 +10928,6 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 314.96) (xy 566.42 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bc96e9-d783-4c8e-b893-3b0c3b73ada0")
-	)
-	(wire
-		(pts
 			(xy 449.58 85.09) (xy 449.58 91.44)
 		)
 		(stroke
@@ -11831,16 +11817,6 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 325.12) (xy 566.42 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70511307-deaa-44fc-a83e-351737ae4ad0")
-	)
-	(wire
-		(pts
 			(xy 57.15 204.47) (xy 57.15 215.9)
 		)
 		(stroke
@@ -11919,6 +11895,16 @@
 			(type default)
 		)
 		(uuid "74e59b50-f7bb-4f13-a762-ad9730a0cb85")
+	)
+	(wire
+		(pts
+			(xy 148.59 243.84) (xy 151.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750351ef-e93b-4f25-b8e5-04cd77ffb490")
 	)
 	(wire
 		(pts
@@ -12261,6 +12247,16 @@
 			(type default)
 		)
 		(uuid "84a8901c-6ceb-401f-9bb3-22d9eaf848b0")
+	)
+	(wire
+		(pts
+			(xy 566.42 314.96) (xy 566.42 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c2df4d-94b3-465a-a146-4577285fd0d2")
 	)
 	(wire
 		(pts
@@ -16120,7 +16116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootprints:CONN04_530480410_MOL"
+		(property "Footprint" "MyFootprints:MOLEX_530480310"
 			(at 247.65 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -17102,7 +17098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "100uF"
 			(at 539.6383 334.3009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22261,110 +22257,6 @@
 			(project "shori"
 				(path "/bed06ac2-3d53-4627-b912-3f6150ebe2ee"
 					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 566.42 321.31 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55f670c9-5fbd-4c66-a91a-e60ef704bfab")
-		(property "Reference" "R40"
-			(at 563.88 320.294 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10Ω"
-			(at 568.706 320.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 564.642 321.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 566.42 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 566.42 321.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 566.42 321.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 566.42 321.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ef7a602-1914-41c8-b3d3-2e8cc3d4542f")
-		)
-		(pin "2"
-			(uuid "04309291-5232-413f-8f25-ebe06d8325fc")
-		)
-		(instances
-			(project "shori"
-				(path "/bed06ac2-3d53-4627-b912-3f6150ebe2ee"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -35802,7 +35694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0510_1x05_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 54.61 289.56 0)
 			(hide yes)
 			(show_name no)

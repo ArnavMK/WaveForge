@@ -2659,7 +2659,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "My Symbols:PJ-051A"
+		(symbol "My Symbols:PJ-063BH"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2669,7 +2669,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -7.62 8.382 0)
+				(at -7.6343 5.0895 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2679,8 +2679,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PJ-051A"
-				(at -7.62 -12.7 0)
+			(property "Value" "PJ-063BH"
+				(at -7.6326 -10.1768 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2690,7 +2690,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PJ-051A:CUI_PJ-051A"
+			(property "Footprint" "PJ-063BH:CUI_PJ-063BH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2713,7 +2713,18 @@
 					)
 				)
 			)
-			(property "Description" "2.0 x 6.0 mm, 2.5 A, Horizontal, Through Hole, Shielded, Dc Power Jack Connector"
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.02"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2725,7 +2736,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MF" "CUI Devices"
+			(property "MANUFACTURER" "CUI INC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2737,7 +2748,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PACKAGE" "None"
+			(property "STANDARD" "Manufacturer recommendations"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2749,81 +2760,10 @@
 					(justify bottom)
 				)
 			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "CUI_PURCHASE_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-051a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "PJ-051A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "AVAILABILITY" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/PJ-051A/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "PJ-051A_0_0"
-				(rectangle
-					(start -7.62 -10.16)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "PJ-063BH_0_0"
 				(polyline
 					(pts
-						(xy -3.175 6.35) (xy 3.81 6.35)
+						(xy -5.715 3.81) (xy -1.27 3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -2834,9 +2774,9 @@
 					)
 				)
 				(arc
-					(start -3.175 3.81)
-					(mid -4.4394 5.08)
-					(end -3.175 6.35)
+					(start -5.715 1.27)
+					(mid -6.9794 2.54)
+					(end -5.715 3.81)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2847,19 +2787,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy -1.27 1.27)
+						(xy -3.81 -1.27) (xy -4.445 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -2871,7 +2799,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 0)
+						(xy -3.175 -2.54) (xy -3.81 -1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -2883,7 +2811,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 7.62 2.54)
+						(xy -1.27 4.445) (xy -1.27 3.81)
 					)
 					(stroke
 						(width 0.1524)
@@ -2895,7 +2823,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy -0.635 0)
+						(xy -1.27 3.81) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -2907,7 +2835,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 7.62 0)
+						(xy -1.27 1.27) (xy -5.715 1.27)
 					)
 					(stroke
 						(width 0.1524)
@@ -2919,19 +2847,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.032 1.27) (xy 3.048 1.27) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.985) (xy 3.81 6.35)
+						(xy -1.27 1.27) (xy -1.27 0.635)
 					)
 					(stroke
 						(width 0.1524)
@@ -2943,7 +2859,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 6.35) (xy 3.81 3.81)
+						(xy -1.27 0.635) (xy 0 0.635)
 					)
 					(stroke
 						(width 0.1524)
@@ -2955,7 +2871,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy -3.175 3.81)
+						(xy 0 4.445) (xy -1.27 4.445)
 					)
 					(stroke
 						(width 0.1524)
@@ -2967,7 +2883,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 3.81 3.175)
+						(xy 0 0.635) (xy 0 4.445)
 					)
 					(stroke
 						(width 0.1524)
@@ -2979,55 +2895,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.175) (xy 5.08 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 6.985) (xy 3.81 6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.175) (xy 5.08 5.08)
+						(xy 0 -2.54) (xy -3.175 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -3038,7 +2906,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 5.08 180)
+					(at 5.08 2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -3056,7 +2924,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at 5.08 -2.54 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -3073,26 +2941,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
+				(pin power_in line
+					(at 5.08 -5.08 180)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -3101,7 +2951,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "S1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3109,8 +2959,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 -7.62 180)
+				(pin power_in line
+					(at 5.08 -5.08 180)
 					(length 5.08)
 					(name "SHIELD__1"
 						(effects
@@ -3119,7 +2969,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "S2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4138,22 +3988,10 @@
 		(uuid "1ad8d56d-de3d-4a4d-ae06-57a5c9a06af6")
 	)
 	(junction
-		(at 44.45 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21dddf35-1f18-4f63-ad33-6507ba1be42f")
-	)
-	(junction
 		(at 203.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "220a249f-f27d-4723-87b1-ecfe1d147c99")
-	)
-	(junction
-		(at 44.45 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2980457e-fe46-4df5-bd65-520d69a03d00")
 	)
 	(junction
 		(at 229.87 91.44)
@@ -4210,6 +4048,12 @@
 		(uuid "629ae7fc-a07f-4c1d-9b5d-f7b3882b63dc")
 	)
 	(junction
+		(at 48.26 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ab80ac-4bc5-4b1a-a60c-6a0d420ecfc3")
+	)
+	(junction
 		(at 149.86 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4226,12 +4070,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f2e14dc-d916-4c63-98b9-40152f221095")
-	)
-	(junction
-		(at 44.45 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73a79a64-f6ad-4908-b315-0871e2289528")
 	)
 	(junction
 		(at 158.0915 25.8278)
@@ -4379,6 +4217,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 52.07) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034cb475-79c4-47a5-a5be-df3755ea5d50")
+	)
+	(wire
+		(pts
 			(xy 158.0915 46.1478) (xy 158.0915 57.5778)
 		)
 		(stroke
@@ -4456,16 +4304,6 @@
 			(type default)
 		)
 		(uuid "0ab408e1-bad5-4ecd-bf0f-df75cff146c4")
-	)
-	(wire
-		(pts
-			(xy 44.45 57.15) (xy 44.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c535757-568c-4919-adc5-ec70bf10e23a")
 	)
 	(wire
 		(pts
@@ -4989,6 +4827,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 54.61) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6557510b-c15e-4a08-a4f6-bacb5681c2e0")
+	)
+	(wire
+		(pts
 			(xy 182.2215 29.6378) (xy 182.2215 41.0678)
 		)
 		(stroke
@@ -5159,16 +5007,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 46.99) (xy 53.34 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81cad7d4-a3b1-4749-a769-d751791e4573")
-	)
-	(wire
-		(pts
 			(xy 260.9615 42.3378) (xy 260.9615 44.8778)
 		)
 		(stroke
@@ -5249,16 +5087,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 44.45 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df2fb38-f4e9-4b4b-b3e6-75cd050fea4b")
-	)
-	(wire
-		(pts
 			(xy 203.2 105.41) (xy 203.2 101.6)
 		)
 		(stroke
@@ -5296,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "970ed461-5826-46ab-9065-d3c28db70561")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 44.45 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971c60a5-53e4-4143-ba67-7a260d5650e0")
 	)
 	(wire
 		(pts
@@ -5469,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb02f50-4c11-4834-962c-d81356da32ca")
+	)
+	(wire
+		(pts
 			(xy 205.74 86.36) (xy 209.55 86.36)
 		)
 		(stroke
@@ -5599,16 +5427,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 48.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e587dd-6f2a-4b3d-a252-9a65490999a0")
-	)
-	(wire
-		(pts
 			(xy 227.9415 49.9578) (xy 227.9415 57.5778)
 		)
 		(stroke
@@ -5696,6 +5514,16 @@
 			(type default)
 		)
 		(uuid "ce93d5d5-e89d-4c16-b673-4dadc3524c59")
+	)
+	(wire
+		(pts
+			(xy 43.18 46.99) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf451797-c431-4646-ad33-bae227f0e375")
 	)
 	(wire
 		(pts
@@ -5936,16 +5764,6 @@
 			(type default)
 		)
 		(uuid "fbdfc271-2494-426c-8d55-4fd8ab9e9356")
-	)
-	(wire
-		(pts
-			(xy 44.45 54.61) (xy 44.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8055d1-ce6c-48ce-af3a-bba7bf087e41")
 	)
 	(label "DC_OUT"
 		(at 119.38 33.02 0)
@@ -6411,6 +6229,84 @@
 			(project "gen"
 				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad85b6a-7a66-464e-866e-35dd2bca62d3")
+		(property "Reference" "#PWR04"
+			(at 48.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "281e5201-dac9-432f-85be-bc8ed089067e")
+		)
+		(instances
+			(project "gen"
+				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7398,7 +7294,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "107K"
 			(at 152.4 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8737,83 +8633,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8eeffbb6-1296-46ed-8585-1e1f3029e169")
-		(property "Reference" "#PWR04"
-			(at 48.26 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ec0587a-5b16-43cb-a8c8-b1a2569f1434")
-		)
-		(instances
-			(project "gen"
-				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 245.11 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -9771,6 +9590,129 @@
 			(project "gen"
 				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "My Symbols:PJ-063BH")
+		(at 38.1 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca37371-9816-483b-9add-0cd9e68fdd79")
+		(property "Reference" "J8"
+			(at 34.6103 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-063BH"
+			(at 34.6103 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My FeetPics:CUI_PJ-063BH"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.02"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI INC"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "04e4fa98-1995-4d86-91fb-4470ffc21881")
+		)
+		(pin "S1"
+			(uuid "996a7e75-be48-41fb-a483-a1a0493740f1")
+		)
+		(pin "S2"
+			(uuid "b30dd9a5-0b78-4409-83e1-027159d845c6")
+		)
+		(pin "2"
+			(uuid "980e4f09-35cb-41c3-8943-d05c4e768c75")
+		)
+		(instances
+			(project "gen"
+				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10771,180 +10713,6 @@
 			(project "gen"
 				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "My Symbols:PJ-051A")
-		(at 31.75 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dbf7577a-9e74-4b6f-aa68-5aa0d3651f74")
-		(property "Reference" "J9"
-			(at 20.066 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PJ-051A"
-			(at 20.066 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "My FeetPics:CUI_PJ-051A"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.0 x 6.0 mm, 2.5 A, Horizontal, Through Hole, Shielded, Dc Power Jack Connector"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "CUI Devices"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "CUI_PURCHASE_URL" "https://www.cuidevices.com/product/interconnect/connectors/dc-power-connectors/jacks/pj-051a?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "PJ-051A"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/PJ-051A/?ref=eda"
-			(at 31.75 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "3"
-			(uuid "01541911-ea8d-41bb-87aa-2f34ffc3d4fc")
-		)
-		(pin "2"
-			(uuid "ea1efaec-a63e-4034-a2f1-3821a7308bc7")
-		)
-		(pin "6"
-			(uuid "25aedac0-ec6d-47f6-b0d0-c30d687e32ad")
-		)
-		(pin "1"
-			(uuid "46d8a1b9-2490-4d2b-abf7-eb30c1dd860d")
-		)
-		(pin "5"
-			(uuid "ae35bf94-843f-489e-a6e5-3cec84ae666b")
-		)
-		(instances
-			(project "gen"
-				(path "/012cfd84-d095-43cc-b661-50b6ce25f7db"
-					(reference "J9")
 					(unit 1)
 				)
 			)
