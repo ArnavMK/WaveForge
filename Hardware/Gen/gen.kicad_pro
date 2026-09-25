@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 1.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -557,7 +557,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -681,7 +681,7 @@
         "uuid": "012cfd84-d095-43cc-b661-50b6ce25f7db"
       }
     ],
-    "used_designators": "J8-9,#PWR4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

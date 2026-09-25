@@ -28858,7 +28858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 189.23 308.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29040,7 +29040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 222.25 308.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
